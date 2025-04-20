@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -122,4 +125,33 @@ main{
 .case-image{
     width: 15vw;
     margin-right: 3.5vw;
+}
+footer {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(240, 150, 157));
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    font-size: 300%;
+    font-weight: 400;
+    font-style: normal;
+    color:azure;
+}
+.footer_column{
+    width: 25vw;
+    margin-right: 3vw;
+    height: 100%;
+}
+.Contact{
+    margin-left: 5vw;
+    text-align: center;
+}
+.Developers{
+    text-align: center;
+}
+.Follow-us{
+}
+.footer-image{
+    text-align: left;
+    height: 5vh;
+    width: auto;
 }
