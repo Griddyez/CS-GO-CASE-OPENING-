@@ -16,7 +16,7 @@ header{
     width: 50vw;
     display: flex;
     flex-direction: row;
-    margin-right: 30vw;
+    margin-right: 25vw;
 }
 .logo{
     width: 10vw;
@@ -98,4 +98,28 @@ header{
 }
 .selector{
     background-color: bisque;
+}
+main{
+    margin: auto;
+    padding-top: 13vh;
+    padding: 10vw;
+    text-align: center;
+    background: linear-gradient(to right, black, rgb(138, 138, 233));
+    font-size: 300%;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cases{
+    margin: 3vh
+}
+.line{
+    padding: 2vw;
+    display: flex;
+    flex-direction: row
+    
+}
+.case-image{
+    width: 15vw;
+    margin-right: 3.5vw;
 }
