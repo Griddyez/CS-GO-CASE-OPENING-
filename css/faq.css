@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(to right, rgb(228, 0, 0), rgb(204, 204, 204));
+    color: white;
+    
+}
+
+
+.button{
+    background-color: rgb(47, 0, 255);
+    width: 100px;
+    height: 100px;
+}
