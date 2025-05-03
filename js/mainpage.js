@@ -1,13 +1,76 @@
 let reg_button = document.querySelector(".log-in")
-let case = document.querySelector(".case")
-case.addEventListner("click",function(){
-
-})
 let FAQ = document.querySelector(".FAQ")
-FAQ.addEventListner("click",function(){
-    
-})
+console.log("HIIIIIIIIIIIIIIIIIIIII")
 let upgrade = document.querySelector(".upgrade")
-upgrade.addEventListner("click",function(){
-    
+let case1 = document.querySelector(".case")
+let rebalance = document.querySelector(".rebalance")
+let input = document.querySelector(".input")
+let login = document.querySelector(".log-in")
+let cases = document.querySelectorAll(".case-image")
+FAQ.addEventListener("click", function () {
+    anime({
+        targets: '.FAQ',
+        scale:[
+            {value:0.75,duration:300},
+            {value:1.0,duration:200},
+        ],
+        duration: 500,
+        easing: 'linear'
+    })
+})
+
+upgrade.addEventListener("click", function () {
+    anime({
+        targets: '.upgrade',
+        scale:[
+            {value:0.75,duration:300},
+            {value:1.0,duration:200},
+        ],
+        duration: 500,
+        easing: 'linear'
+    })
+})
+case1.addEventListener("click", function () {
+    anime({
+        targets: '.case1',
+        scale:[
+            {value:0.75,duration:300},
+            {value:1.0,duration:200},
+        ],
+        duration: 500,
+        easing: 'linear'
+    })
+})
+rebalance.addEventListener("click", function () {
+    anime({
+        targets: '.rebalance',
+        scale:[
+            {value:0.75,duration:300},
+            {value:1.0,duration:200},
+        ],
+        duration: 500,
+        easing: 'linear'
+    })
+})
+input.addEventListener("click", function () {
+    anime({
+        targets: '.input',
+        scale:[
+            {value:0.75,duration:300},
+            {value:1.0,duration:200},
+        ],
+        duration: 500,
+        easing: 'linear'
+    })
+})
+login.addEventListener("click", function () {
+    anime({
+        targets: '.login',
+        scale:[
+            {value:0.75,duration:300},
+            {value:1.0,duration:200},
+        ],
+        duration: 500,
+        easing: 'linear'
+    })
 })

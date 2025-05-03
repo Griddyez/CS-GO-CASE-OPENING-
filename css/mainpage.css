@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 body{
     background-color: black;
 }
@@ -10,7 +11,7 @@ header{
     border: 0;
     text-align: center;
     position: fixed;
-    margin-top: 0px;
+    top: 0px;
 }
 .front_header{
     display: flex;
@@ -50,7 +51,6 @@ header{
 .FAQ{
     display: flex;
     flex-direction: row;
-    background-color: transparent;
     border: 0;
     margin-right: 3vw;
     margin-top: 0px;
