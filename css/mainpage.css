@@ -161,13 +161,19 @@ footer {
     margin-right: 3vw;
     height: 100%;
 }
-.Contact{
+.Contacts_d{
     width: fit-content;
     margin-left: 5vw;
     text-align: center;
 }
-.Developers{
+.Developers_d{
     text-align: center;
+}
+.Follow-us_d{
+}
+.Contacts{
+}
+.Developers{
 }
 .Follow-us{
 }
@@ -175,4 +181,7 @@ footer {
     text-align: left;
     height: 5vh;
     width: auto;
+}
+.d-list{
+
 }
