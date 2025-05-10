@@ -1,12 +1,15 @@
 body{
-    background: linear-gradient(to right, rgb(228, 0, 0), rgb(204, 204, 204));
+    background: linear-gradient(to right, rgb(80, 78, 78), rgb(99, 99, 99));
     color: white;
     
 }
 
 
 .button{
-    background-color: rgb(47, 0, 255);
+    background-color: rgb(255, 255, 255);
     width: 100px;
-    height: 100px;
+    height: 40px;
+    color: rgb(66, 66, 66);
+    border-color: rgb(15, 15, 15)
 }
+
