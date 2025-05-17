@@ -1,0 +1,33 @@
+main{
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(to right, black, rgb(138, 138, 233));
+    font-size: 300%;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.div_images{
+    display: flex;
+    flex-direction: row;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+
+    width: fit-content;
+    height: fit-content;
+    color: aliceblue;
+    background-color: transparent;
+}
+.pay{
+
+}
+.spin{
+    
+}
