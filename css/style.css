@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.payment-system {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.payment-system:hover {
+    border-color: #007bff;
+}
+
+.payment-system.selected {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+.payment-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.commission {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.balance {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.submit-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
