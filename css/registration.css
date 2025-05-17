@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to right, rgb(158, 226, 47), rgb(158, 226, 47));
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: 
+        "a b"
+        "c d"
+        "e e";
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(3, 50px);
+    width: fit-content;
+    margin: auto;
+    gap: 20px;
+}
+
+.grid * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    grid-area: a;
+}
+.b {
+    grid-area: b;
+}
+.c {
+    grid-area: c;
+}
+.d {
+    grid-area: d;
+}
+.e {
+    grid-area: e;
+}
