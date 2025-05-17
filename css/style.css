@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #1a1a1a;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    width: 100%;
+}
+
+.image {
+    width: 130px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #00ff9d;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.balance-section {
+    background: #2d2d2d;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.balance-label {
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.balance-amount {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00ff9d;
+}
+
+.topup-button {
+    background: linear-gradient(45deg, #00ff9d, #00cc7a);
+    border: none;
+    padding: 1rem 2rem;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+
+.payment-methods {
+    background: #2d2d2d;
+    padding: 2rem;
+    border-radius: 15px;
+    display: none;
+}
+
+.method-list {
+    list-style: none;
+}
+
+.method-item {
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #3d3d3d;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .balance-amount {
+        font-size: 2rem;
+    }
+}
